@@ -1,0 +1,25 @@
+.divone{
+    padding: 100px;
+    text-align: justify;
+    
+}
+.list-inline{
+    display: flex;
+}
+a{
+    margin: 12px;
+    text-decoration: none;
+    color: white;
+}
+.name:hover{
+    color: cornflowerblue;
+}
+.name:active{
+    color: blue;
+}
+.ss:hover{
+    color: blueviolet;
+}
+.btn-custom{
+background-color: black;
+}
