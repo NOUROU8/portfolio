@@ -23,7 +23,7 @@
                 <div class="divone">
                     <h5>Hi THERE</h5>
                     <h2 style="color: orange;"><span style="color: black;">I'M </span>NOUROU DIAKHO</h2><br>
-                    <button class="btn btn-warning text-light">About Me</button>
+                    <button class="btn btn-warning text-light" id="btn1">About Me</button>
                 </div>
             </div>
             <div class="col-sm-6 bg bg-light">
@@ -82,6 +82,14 @@
         </div>
 
     </div>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                window.location.href = "About.html";
+            })
+
+        })
+    </script>
 
 </body>
 </html>
